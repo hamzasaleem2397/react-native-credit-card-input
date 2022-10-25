@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-closing-bracket-location */
+/* eslint-disable no-multi-spaces */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import ReactNative, {
@@ -27,6 +29,7 @@ const s = StyleSheet.create({
   },
   inputLabel: {
     fontWeight: "bold",
+    color: "black",
   },
   input: {
     height: 40,
@@ -35,7 +38,7 @@ const s = StyleSheet.create({
 
 const CVC_INPUT_WIDTH = 70;
 const EXPIRY_INPUT_WIDTH = 80;
-const CARD_NUMBER_INPUT_WIDTH_OFFSET = 40;
+
 const CARD_NUMBER_INPUT_WIDTH = Dimensions.get("window").width * 0.8;
 
 const NAME_INPUT_WIDTH = CARD_NUMBER_INPUT_WIDTH;
