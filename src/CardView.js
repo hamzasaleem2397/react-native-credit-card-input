@@ -29,11 +29,11 @@ const s = StyleSheet.create({
     resizeMode: "contain",
   },
   baseText: {
-    color: "rgba(255, 255, 255, 0.8)",
+    color: "rgba(255, 255, 255, 0.9)",
     backgroundColor: "transparent",
   },
   placeholder: {
-    color: "rgba(255, 255, 255, 0.5)",
+    color: "rgba(255, 255, 255, 0.6)",
   },
   focused: {
     fontWeight: "bold",
@@ -73,7 +73,7 @@ const s = StyleSheet.create({
   cvc: {
     fontSize: 16,
     position: "absolute",
-    top: 80,
+    top: 68,
     right: 30,
   },
 });
