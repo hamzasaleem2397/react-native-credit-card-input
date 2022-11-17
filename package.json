@@ -1,6 +1,6 @@
 {
   "name": "@hamzasaleem2397/react-native-input-card",
-  "version": "0.4.3",
+  "version": "1.0.2",
   "description": "React native credit card input component",
   "main": "index.js",
   "scripts": {

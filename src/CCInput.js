@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-closing-bracket-location */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import {
@@ -53,7 +52,7 @@ export default class CCInput extends Component {
     additionalInputProps: {},
   };
 
-  static getDerivedStateFromProps = (newProps) => {
+  componentWillReceiveProps = (newProps) => {
     const { status, value, onBecomeEmpty, onBecomeValid, field } = this.props;
     const { status: newStatus, value: newValue } = newProps;
 
@@ -73,7 +72,6 @@ export default class CCInput extends Component {
       placeholder,
       status,
       keyboardType,
-      // eslint-disable-next-line react/prop-types
       containerStyle,
       inputStyle,
       labelStyle,
